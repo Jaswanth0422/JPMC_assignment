@@ -1,0 +1,115 @@
+#root{
+  width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute
+}
+.header_buttons{
+  padding: 10px;
+  align-content: flex-end;
+  display: inline-flex;
+  position: relative;
+  justify-content: flex-end;
+
+}
+.theader{
+  
+  padding: 5px;
+  width: 100px;
+  font-size: 16px;
+  background-color: burlywood;
+
+}
+.tdata{
+  /* padding:5px; */
+  /* font-size: 14px; */
+}
+
+.sort-btn{
+  padding: 8px;
+  margin:5px;
+  background-color: rgb(32, 85, 230);
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+
+}
+.sort-btn:hover{
+  cursor: pointer;
+}
+.tflex{
+  display: flex;
+  justify-content: center;
+}
+.tRowWhite{
+  background-color: white;
+  color: #282c34;
+  padding:5px;
+  font-size: 14px;
+}
+.tRowBlue{
+  background-color: blue;
+  color: aliceblue;
+  padding:5px;
+  font-size: 14px;
+}
+.tRowGreen{
+  background-color: green;
+  color: aliceblue;
+  padding:5px;
+  font-size: 14px;
+}
+.tRowPriceBlue{
+  /* color: rgb(219, 219, 241); */
+  padding:5px;
+  font-size: 14px;
+}
+.tRowPriceRed{
+  color: red;
+  padding:5px;
+  font-size: 14px;
+}
+.App {
+  width:100%;
+  height:100%;
+  display:block;
+  position: relative;
+  text-align: center;
+  background-color: #f2f5f6;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
