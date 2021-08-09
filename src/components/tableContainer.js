@@ -22,8 +22,7 @@ class Toggle extends React.Component {
     handleClick(e) {
         e.preventDefault();
         let sortedArray;
-        let check2 = this.state.sort2Clicked;
-        let check3 = this.state.sort3Clicked;
+        
         let sortedTabeData=this.state.sortedTabeData;
         
             sortedArray = sortedTabeData.sort(function (a, b) {
